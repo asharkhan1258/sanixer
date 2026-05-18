@@ -1,0 +1,160 @@
+{
+  "careers": [
+    {
+      "id": "1",
+      "jobTitleBaner": "Senior Full Stack Developer",
+      "descJobTitle": "Join our dynamic team as a Senior Full Stack Developer. Lead innovative projects using cutting-edge technologies like React, Node.js, and cloud platforms. Drive technical excellence while mentoring junior developers.",
+      "location": "Remote / On-site",
+      "type": "Full-time",
+      "experience": "4-6 years",
+      "skills": ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+      "responsibilities": [
+        "Develop and maintain scalable web applications",
+        "Collaborate with cross-functional teams",
+        "Mentor junior developers",
+        "Participate in code reviews and technical discussions"
+      ],
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "4+ years of experience in full stack development",
+        "Strong knowledge of React and Node.js",
+        "Experience with cloud platforms (AWS, Azure)",
+        "Excellent problem-solving skills"
+      ]
+    },
+    {
+      "id": "2",
+      "jobTitleBaner": "UI/UX Designer",
+      "descJobTitle": "Create exceptional user experiences through innovative design solutions. Work closely with development teams to bring visually stunning and user-friendly interfaces to life.",
+      "location": "Hybrid",
+      "type": "Full-time",
+      "experience": "3-5 years",
+      "skills": [
+        "Figma",
+        "Adobe Creative Suite",
+        "Prototyping",
+        "User Research",
+        "Wireframing"
+      ],
+      "responsibilities": [
+        "Design intuitive user interfaces and experiences",
+        "Create wireframes, prototypes, and high-fidelity mockups",
+        "Conduct user research and usability testing",
+        "Collaborate with developers to ensure design implementation"
+      ],
+      "requirements": [
+        "Bachelor's degree in Design, HCI, or related field",
+        "3+ years of UI/UX design experience",
+        "Proficiency in Figma and Adobe Creative Suite",
+        "Strong portfolio demonstrating design skills",
+        "Understanding of responsive design principles"
+      ]
+    },
+    {
+      "id": "3",
+      "jobTitleBaner": "DevOps Engineer",
+      "descJobTitle": "Streamline our development and deployment processes through automation and infrastructure management. Build reliable, scalable systems that support our growing product portfolio.",
+      "location": "Remote",
+      "type": "Full-time",
+      "experience": "3-5 years",
+      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Terraform"],
+      "responsibilities": [
+        "Design and maintain CI/CD pipelines",
+        "Manage cloud infrastructure and deployments",
+        "Implement monitoring and logging solutions",
+        "Ensure system security and compliance"
+      ],
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "3+ years of DevOps experience",
+        "Experience with containerization and orchestration",
+        "Knowledge of cloud platforms and infrastructure as code",
+        "Strong scripting and automation skills"
+      ]
+    },
+    {
+      "id": "4",
+      "jobTitleBaner": "Mobile App Developer",
+      "descJobTitle": "Develop high-performance mobile applications for iOS and Android platforms. Create seamless user experiences across different devices and operating systems.",
+      "location": "On-site",
+      "type": "Full-time",
+      "experience": "2-4 years",
+      "skills": [
+        "React Native",
+        "Flutter",
+        "iOS",
+        "Android",
+        "API Integration"
+      ],
+      "responsibilities": [
+        "Develop cross-platform mobile applications",
+        "Optimize app performance and user experience",
+        "Integrate with backend APIs and third-party services",
+        "Collaborate with design and backend teams"
+      ],
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "2+ years of mobile app development experience",
+        "Experience with React Native or Flutter",
+        "Knowledge of native iOS/Android development",
+        "Understanding of mobile app deployment processes"
+      ]
+    },
+    {
+      "id": "5",
+      "jobTitleBaner": "Data Scientist",
+      "descJobTitle": "Transform raw data into actionable insights that drive business decisions. Work with machine learning algorithms and statistical models to solve complex problems.",
+      "location": "Hybrid",
+      "type": "Full-time",
+      "experience": "3-6 years",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "TensorFlow",
+        "Data Visualization"
+      ],
+      "responsibilities": [
+        "Analyze large datasets to identify patterns and trends",
+        "Build and deploy machine learning models",
+        "Create data visualizations and reports",
+        "Collaborate with stakeholders to define data requirements"
+      ],
+      "requirements": [
+        "Master's degree in Data Science, Statistics, or related field",
+        "3+ years of data science experience",
+        "Proficiency in Python and SQL",
+        "Experience with machine learning frameworks",
+        "Strong analytical and problem-solving skills"
+      ]
+    },
+    {
+      "id": "6",
+      "jobTitleBaner": "Product Manager",
+      "descJobTitle": "Lead product strategy and development from conception to launch. Work with cross-functional teams to deliver products that meet market needs and business objectives.",
+      "location": "On-site",
+      "type": "Full-time",
+      "experience": "4-7 years",
+      "skills": [
+        "Product Strategy",
+        "Agile",
+        "Market Research",
+        "Analytics",
+        "Stakeholder Management"
+      ],
+      "responsibilities": [
+        "Define product vision and roadmap",
+        "Gather and prioritize product requirements",
+        "Work closely with engineering and design teams",
+        "Monitor product performance and user feedback"
+      ],
+      "requirements": [
+        "Bachelor's degree in Business, Engineering, or related field",
+        "4+ years of product management experience",
+        "Strong analytical and strategic thinking skills",
+        "Experience with Agile development methodologies",
+        "Excellent communication and leadership abilities"
+      ]
+    }
+  ]
+}

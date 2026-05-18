@@ -1,0 +1,14 @@
+User-agent: *
+
+# Disallow sensitive or non-public folders
+Disallow: /studio/
+Disallow: /api/
+
+# Allow everything else
+Allow: /
+
+# Host
+Host: https://www.Sanixer
+
+# Sitemap
+Sitemap: https://www.Sanixer/sitemap.xml

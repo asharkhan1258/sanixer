@@ -1,0 +1,379 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset button styles to work properly with Tailwind */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Add this to your global CSS or in a <style> tag */
+.technology-item::before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-top: 1rem solid #f3f4f6; /* Adjust the color to match the background */
+  z-index: -1;
+}
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.greetings {
+  height: 65%; /* Default for larger screens */
+}
+
+@media (max-width: 640px) {
+  .greetings {
+    height: 90%; /* Override for smaller screens */
+  }
+}
+
+/* Shared button styles */
+.button {
+  background-color: #f7e022;
+  color: black;
+  margin-top: 9px;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.button2 {
+  background-color: #f7e022;
+  margin-top: 9px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  width: 100%;
+  max-width: 20rem;
+}
+
+/* Hover and focus effects */
+.button:hover,
+.button2:hover,
+.button:focus,
+.button2:focus {
+  transform: translateY(-2px);
+  background-color: #e5d410;
+}
+
+/* Additional styles for responsive layouts */
+@media (max-width: 640px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.resize-none {
+  resize: none;
+}
+.form-error {
+  font-size: 12px;
+  color: red;
+  margin-left: 2px;
+}
+
+.popup-message {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: #1d92fb;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.message {
+  font-size: 16px;
+  color: #fff; /* Blue color */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  animation: fadeOut 3s forwards; /* Animation duration */
+}
+
+.loading-line {
+  width: 100%;
+  height: 3px; /* Adjust thickness as needed */
+  background-color: #fff; /* Blue color */
+  margin-bottom: 8px; /* Adjust spacing from message */
+  animation: loading 3s linear forwards; /* Animation duration */
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* CSS for the image animation */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container:hover .overlay {
+  transform: translateY(0);
+}
+/* Add this CSS to your global stylesheet or a CSS module */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.4s ease;
+  transform: translateY(100%);
+}
+
+.overlay h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.overlay p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.social-icon-container {
+  transition: fill 0.3s;
+}
+
+.social-icon-container:hover {
+  fill: black;
+}
+
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 30px 20px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mega-box {
+  position: fixed;
+  top: 73px;
+  left: 27%;
+  width: calc(40% - 20px);
+  max-width: calc(40% - 20px);
+  background-color: #ffffff;
+  padding: 0px 0px 20px 0px;
+  border-radius: 12px;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* This line adds a box shadow */
+}
+
+.mega-box.visible {
+  opacity: 1;
+  visibility: visible;
+  top: calc(8.5% + 10px);
+}
+
+.mega-menu:hover .mega-box,
+.mega-box:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.content {
+  display: flex;
+}
+
+.content > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.content > div:last-child {
+  margin-right: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.main p {
+  margin-right: 20px;
+}
+
+.mega-links {
+  list-style: none;
+  padding: 0;
+}
+
+.mega-links-mb {
+  list-style: none;
+  padding: 0;
+}
+
+.mega-links li {
+  margin-bottom: 15px;
+}
+
+.mega-links-mb li {
+  margin-bottom: 13px;
+}
+.mega-links-mb li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s; /* Add smooth transition */
+}
+
+.mega-links li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  transition: color 0.3s, transform 0.3s; /* Add smooth transition */
+}
+.mega-links-mb li p a {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgb(141, 137, 137);
+  cursor: pointer;
+}
+.mega-links li p a {
+  font-size: 12px;
+  font-weight: 300;
+
+  color: rgb(141, 137, 137);
+  cursor: pointer;
+}
+
+.mega-links li h3 {
+  font-size: 13px;
+  font-weight: 100;
+  color: rgb(141, 137, 137);
+}
+
+.mega-links li:hover p a {
+  color: #0e0e0e;
+  font-weight: 400;
+  transform: scale(1.1);
+}
+.mega-links li:hover .heading {
+  color: #0a8ffc;
+  transform: scale(1.1);
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+
+
+

@@ -1,0 +1,60 @@
+{
+  "growthCards": [
+    {
+      "id": 1,
+      "icon": "FaLightbulb",
+      "title": "Vision to Reality",
+      "description": "We transform your innovative ideas into powerful digital solutions using cutting-edge technologies and industry best practices."
+    },
+    {
+      "id": 2,
+      "icon": "FaUsers",
+      "title": "Dedicated Experts",
+      "description": "Our world-class team of technology specialists provides unmatched expertise and dedicated support throughout your project journey."
+    },
+    {
+      "id": 3,
+      "icon": "FaCogs",
+      "title": "Process Driven",
+      "description": "We follow structured, time-tested methodologies ensuring consistency, precision, and complete transparency in every project phase."
+    },
+    {
+      "id": 4,
+      "icon": "FaRocket",
+      "title": "Digital Acceleration",
+      "description": "We accelerate your digital transformation through innovative solutions, modern technologies, and strategic implementation approaches."
+    }
+  ],
+  "processSteps": [
+    {
+      "id": 1,
+      "stepNumber": "01",
+      "title": "Discovery & Strategy",
+      "description": "We conduct comprehensive research to understand your business objectives, target audience, and market landscape for strategic planning."
+    },
+    {
+      "id": 2,
+      "stepNumber": "02",
+      "title": "Design & Architecture",
+      "description": "Our experts create detailed blueprints and user-centric designs that align with your vision and business requirements."
+    },
+    {
+      "id": 3,
+      "stepNumber": "03",
+      "title": "Development & Integration",
+      "description": "We build robust, scalable solutions using modern technologies while ensuring seamless integration with existing systems."
+    },
+    {
+      "id": 4,
+      "stepNumber": "04",
+      "title": "Testing & Optimization",
+      "description": "Rigorous quality assurance testing and performance optimization ensure flawless functionality and exceptional user experience."
+    },
+    {
+      "id": 5,
+      "stepNumber": "05",
+      "title": "Launch & Support",
+      "description": "We ensure smooth deployment and provide ongoing maintenance and support to keep your solution running at peak performance."
+    }
+  ]
+}

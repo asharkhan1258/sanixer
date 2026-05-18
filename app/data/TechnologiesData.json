@@ -1,0 +1,200 @@
+[
+  {
+    "technologyBadge": "Analytics Solutions",
+    "title": "Web Analytics",
+    "description": "Leverage powerful analytics tools to transform your data into actionable insights. Our comprehensive suite helps you understand user behavior, optimize performance, and drive meaningful business growth.",
+    "icons": ["Google Analytics", "Amplitude", "Hotjar", "Microsoft Clarity"],
+    "technologyImage": "/web-analytics.png",
+    "stats": {
+      "top": { "label": "Data Accuracy", "value": "99.9%" },
+      "bottom": { "label": "Real-time", "value": "Instant" }
+    }
+  },
+  {
+    "technologyBadge": "E-Commerce Solutions",
+    "title": "E-Commerce",
+    "description": "Transform your business with cutting-edge e-commerce solutions. From seamless shopping experiences to powerful backend management, we deliver platforms that drive sales and customer satisfaction.",
+    "icons": ["Shopify", "WooCommerce", "Magento", "BigCommerce"],
+    "technologyImage": "/e-commerce.png",
+    "stats": {
+      "top": { "label": "Sales Growth", "value": "300%" },
+      "bottom": { "label": "Platform", "value": "Multi-Store" }
+    }
+  },
+  {
+    "technologyBadge": "Development Solutions",
+    "title": "Web Development",
+    "description": "Our web development expertise creates fast, responsive, and scalable websites and applications. We use modern frameworks and best practices to deliver exceptional digital experiences across all devices.",
+    "icons": ["React", "Next.js", "Vue.js", "Angular"],
+    "technologyImage": "/web-development-img.png",
+    "stats": {
+      "top": { "label": "Performance", "value": "200% Faster" },
+      "bottom": { "label": "Compatibility", "value": "All Devices" }
+    }
+  },
+  {
+    "technologyBadge": "SEO Solutions",
+    "title": "SEO",
+    "description": "Boost your online visibility with comprehensive SEO strategies. We optimize your content, technical infrastructure, and authority signals to rank higher and attract qualified organic traffic.",
+    "icons": ["Ahrefs", "SEMrush", "Moz", "Google Search Console"],
+    "technologyImage": "/seo.png",
+    "stats": {
+      "top": { "label": "Traffic Increase", "value": "240%" },
+      "bottom": { "label": "Rankings", "value": "Page 1" }
+    }
+  },
+  {
+    "technologyBadge": "CMS Solutions",
+    "title": "CMS",
+    "description": "Manage your content effortlessly with intuitive CMS solutions. We implement systems that empower your team to update content quickly while maintaining design consistency and performance.",
+    "icons": ["WordPress", "Drupal", "Joomla", "Contentful"],
+    "technologyImage": "/cms.png",
+    "stats": {
+      "top": { "label": "Efficiency", "value": "70%" },
+      "bottom": { "label": "Updates", "value": "Real-time" }
+    }
+  },
+  {
+    "technologyBadge": "Payment Solutions",
+    "title": "Payment Solutions",
+    "description": "Secure, seamless payment processing solutions that enhance customer experience and boost transaction completion rates. We integrate with leading payment gateways for global commerce.",
+    "icons": ["Stripe", "PayPal", "Square", "Braintree"],
+    "technologyImage": "/payment-solutions.png",
+    "stats": {
+      "top": { "label": "Security", "value": "PCI DSS" },
+      "bottom": { "label": "Gateways", "value": "20+ Integrated" }
+    }
+  },
+  {
+    "technologyBadge": "Management Solutions",
+    "title": "Project Management",
+    "description": "Streamline your workflows with powerful project management tools. We help you plan, execute, and deliver projects efficiently while keeping all stakeholders aligned and informed.",
+    "icons": ["Jira", "Asana", "Trello", "Monday.com"],
+    "technologyImage": "/project-management-img.png",
+    "stats": {
+      "top": { "label": "Productivity", "value": "65%" },
+      "bottom": { "label": "Tracking", "value": "Milestones" }
+    }
+  },
+  {
+    "technologyBadge": "Data Solutions",
+    "title": "Scraping",
+    "description": "Advanced data extraction services that transform unstructured web data into structured, actionable intelligence for market research, lead generation, and competitive analysis.",
+    "icons": ["Scrapy", "Beautiful Soup", "Selenium", "Puppeteer"],
+    "technologyImage": "/scraping.jpg",
+    "stats": {
+      "top": { "label": "Data Points", "value": "1M+/Day" },
+      "bottom": { "label": "Accuracy", "value": "98.5%" }
+    }
+  },
+  {
+    "technologyBadge": "Automation Solutions",
+    "title": "Automation & Integration",
+    "description": "Automate repetitive tasks and connect your business systems. We create seamless integrations that save time, reduce errors, and improve data flow across your organization.",
+    "icons": ["Zapier", "Make", "n8n", "Workato"],
+    "technologyImage": "/automation.png",
+    "stats": {
+      "top": { "label": "Time Saved", "value": "40 Hours/Week" },
+      "bottom": { "label": "Integrations", "value": "50+ APIs" }
+    }
+  },
+  {
+    "technologyBadge": "Cloud Solutions",
+    "title": "Cloud Services",
+    "description": "Scale your operations with reliable cloud infrastructure. We provide secure, flexible cloud solutions that grow with your business and ensure high availability of your services.",
+    "icons": ["AWS", "Google Cloud", "Azure", "DigitalOcean"],
+    "technologyImage": "/cloud-services.png",
+    "stats": {
+      "top": { "label": "Scalability", "value": "Unlimited" },
+      "bottom": { "label": "Uptime", "value": "99.95%" }
+    }
+  },
+  {
+    "technologyBadge": "Database Solutions",
+    "title": "Databases",
+    "description": "Manage your data effectively with optimized database solutions. We design and implement database architectures that ensure data integrity, performance, and scalability.",
+    "icons": ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+    "technologyImage": "/database.png",
+    "stats": {
+      "top": { "label": "Query Speed", "value": "<50ms" },
+      "bottom": { "label": "Data Security", "value": "Encrypted" }
+    }
+  },
+  {
+    "technologyBadge": "Frontend Solutions",
+    "title": "Frontend",
+    "description": "Cutting-edge frontend development creating responsive, interactive interfaces. We focus on performance, accessibility, and seamless user experiences across all platforms.",
+    "icons": ["React", "Vue", "Svelte", "TypeScript"],
+    "technologyImage": "/frontend.jpg",
+    "stats": {
+      "top": { "label": "Load Time", "value": "<1s" },
+      "bottom": { "label": "Lighthouse Score", "value": "95+" }
+    }
+  },
+  {
+    "technologyBadge": "DevOps Solutions",
+    "title": "DevOps",
+    "description": "Accelerate development cycles with DevOps practices. We automate deployment, monitoring, and infrastructure management to deliver software faster and more reliably.",
+    "icons": ["Docker", "Kubernetes", "Jenkins", "GitLab CI/CD"],
+    "technologyImage": "/devops.png",
+    "stats": {
+      "top": { "label": "Deployment Speed", "value": "5x Faster" },
+      "bottom": { "label": "CI/CD", "value": "Automated" }
+    }
+  },
+  {
+    "technologyBadge": "Mobile Solutions",
+    "title": "Mobile Technologies",
+    "description": "Native and cross-platform mobile app development that delivers exceptional experiences on iOS and Android. We build apps that users love and engage with regularly.",
+    "icons": ["React Native", "Flutter", "Swift", "Kotlin"],
+    "technologyImage": "/mobile-technologies.png",
+    "stats": {
+      "top": { "label": "App Rating", "value": "4.8/5" },
+      "bottom": { "label": "Platforms", "value": "iOS & Android" }
+    }
+  },
+  {
+    "technologyBadge": "Headless CMS",
+    "title": "CMS-Headless",
+    "description": "Future-proof your content with headless CMS architecture. We decouple content from presentation for omnichannel delivery and greater flexibility in how you display content.",
+    "icons": ["Strapi", "Contentful", "Sanity", "Prismic"],
+    "technologyImage": "/headless-cms.png",
+    "stats": {
+      "top": { "label": "Omnichannel", "value": "10+ Channels" },
+      "bottom": { "label": "Content Reuse", "value": "85%" }
+    }
+  },
+  {
+    "technologyBadge": "Testing Solutions",
+    "title": "Automated Testing",
+    "description": "Ensure quality with comprehensive automated testing. We create test suites that validate functionality, performance, and security across your applications.",
+    "icons": ["Selenium", "Cypress", "Jest", "Playwright"],
+    "technologyImage": "/automated-testing.png",
+    "stats": {
+      "top": { "label": "Test Coverage", "value": "95%" },
+      "bottom": { "label": "Execution Time", "value": "80% Faster" }
+    }
+  },
+  {
+    "technologyBadge": "Testing Solutions",
+    "title": "Manual Testing",
+    "description": "Comprehensive manual testing services that ensure software quality, usability, and functionality. Our testers meticulously validate every aspect of your application.",
+    "icons": ["TestRail", "qTest", "Zephyr", "TestLodge"],
+    "technologyImage": "/manual-testing.jpg",
+    "stats": {
+      "top": { "label": "Bugs Found", "value": "98%" },
+      "bottom": { "label": "Coverage", "value": "Full Suite" }
+    }
+  },
+  {
+    "technologyBadge": "Design Solutions",
+    "title": "UI/UX Designing",
+    "description": "Create exceptional user experiences with thoughtful UI/UX design. We focus on usability, accessibility, and delight to create interfaces that users love and engage with.",
+    "icons": ["Figma", "Adobe XD", "Sketch", "InVision"],
+    "technologyImage": "/uiux-designing.png",
+    "stats": {
+      "top": { "label": "User Satisfaction", "value": "92%" },
+      "bottom": { "label": "Conversion Lift", "value": "45%" }
+    }
+  }
+]
